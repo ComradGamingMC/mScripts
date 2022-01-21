@@ -44,21 +44,4 @@ Citizen.CreateThread(function()
     AddTextEntry('s4', '2014 Dodge Charger Police')
 
 	
-	AddTextEntry('viperleo', '2017 Dodge Viper Police')
-	AddTextEntry('amggtrleo', '2018 AMG GTR Police')
-	AddTextEntry('911turboleo', '2018 Porsche 911 Turbo Police')
-
-    AddTextEntry('utvtrailer', '2018 John Deere 4x4 Trailer')
-    AddTextEntry('gator', '2018 John Deere 4x4')
-    AddTextEntry('bcso001', '2018 Ford Explorer Interceptor')
-    AddTextEntry('c3cvpi', '2010 Ford Crown Victoria Interceptor')
-    AddTextEntry('bcso003', '2011 Ford Crown Victoria Interceptor')
-    AddTextEntry('bcsotaurus', '2016 Ford Taurus Interceptor')
-    AddTextEntry('BHTahoe', '2018 Chevy Tahoe Interceptor')
-    AddTextEntry('BHTahoek9', '2018 Chevy Tahoe Interceptor K9')
-    AddTextEntry('c3fpiu', '2018 Ford Explorer Interceptor')
-    AddTextEntry('c3ram', '2018 Dodge Ram')
-    AddTextEntry('pitbull', '2018 Lenco Pitbull SWAT')
-    AddTextEntry('bearcat', '2018 Lenco Bearcat SWAT')
-	
 end)
