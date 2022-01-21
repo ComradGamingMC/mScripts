@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game { 'gta5' }
 author 'Mathew Loveless <mloveless7@yahoo.com>'
 description 'Custom Scripting Package For General FiveM Usage'
-Version '1.0.0'
+Version '1.0.1'
 
 
 files {
