@@ -1,6 +1,7 @@
+# Mathew Scripts - Custom Sciprting Package for general FiveM server usage, Tested on ESX & Standlone 
 # mScripts
 This is a custom scripting package that i have made for general FiveM usage on any server weather it is ESX,QB-Core,vMenu or even a blank server. Current Lua Scripts inside
-    3D Me - 3D Text That pops up above the player for better RP Usage
+    3D Me - 3D Text That pops up above the player for better RP Usage 
     AI Spawning Rate - Allows you to change how much AI are in you city
     Blips - Custom Blip Locations, Locations can be disabled by adding -- infront of the info 
     /Car Command - Command That allows you to spawn a vehicle without opening a menu
