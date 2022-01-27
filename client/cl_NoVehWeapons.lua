@@ -1,5 +1,4 @@
-if Config.disablevehicleweapons then
-    Citizen.CreateThread(function()
+   Citizen.CreateThread(function()
         while true do
         local wait = 500
             local playerped = PlayerPedId()
