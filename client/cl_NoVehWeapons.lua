@@ -1,4 +1,5 @@
-   Citizen.CreateThread(function()
+
+    Citizen.CreateThread(function()
         while true do
         local wait = 500
             local playerped = PlayerPedId()
@@ -12,7 +13,6 @@
                     end
                 end
             end
-            Citizen.Wait(wait)
+            Citizen.Wait(0)
         end
     end)
-    end
