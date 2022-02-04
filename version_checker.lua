@@ -15,7 +15,7 @@ function GetCurrentVersion()
 end
 
 -- Grabs the latest version number from the web GitHub
-PerformHttpRequest( "https://comradgamingmc.github.io/mScripts_Web/version.txt", function( err, text, headers )
+PerformHttpRequest( "https://comradgamingmc.github.io/version.txt", function( err, text, headers )
 	-- Wait to reduce spam
 	Citizen.Wait( 2000 )
 
