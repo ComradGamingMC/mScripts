@@ -9,9 +9,6 @@ local distToDraw = 250 -- Min. distance to draw
 
 local pedDisplaying = {}
 
-
-TriggerEvent('chat:addSuggestion', '/me' , 'Allows Player todo /me for text to pop up above the head.')
-
 local function DrawText3D(coords, text)
     local camCoords = GetGameplayCamCoord()
     local dist = #(coords - camCoords)

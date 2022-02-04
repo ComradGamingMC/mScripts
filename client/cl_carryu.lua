@@ -1,5 +1,4 @@
 local carryingBackInProgress = false
-TriggerEvent('chat:addSuggestion', '/carryu' , 'Allows you to Carry your friend in your arms')
 RegisterCommand("carryu",function(source, args)
 	if not carryingBackInProgress then
 			carryingBackInProgress = true

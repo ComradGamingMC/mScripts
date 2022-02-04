@@ -41,5 +41,3 @@ while IsPauseMenuActive() do
 	NetworkSessionHost(-1, 255, false) --Attempts reconnection to the session after exiting the editor
 end
 end,false)
-
-TriggerEvent('chat:addSuggestion', '/record', 'Record Something for Rockstar Editor to Edit later.')

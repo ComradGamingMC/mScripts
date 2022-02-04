@@ -4,7 +4,6 @@ function ShowNotification( text )
     AddTextComponentSubstringPlayerName(text)
     DrawNotification(false, false)
 end
-TriggerEvent('chat:addSuggestion', '/car' , 'Allows spawning a vehicle by name')
 RegisterCommand('car', function(source, args, rawCommand)
     local x,y,z = table.unpack(GetOffsetFromEntityInWorldCoords(PlayerPedId(), 0.0, 8.0, 0.5))
     local veh = args[1]

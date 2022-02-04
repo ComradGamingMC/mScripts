@@ -1,5 +1,4 @@
 local carryingBackInProgress = false
-TriggerEvent('chat:addSuggestion', '/carry' , 'Allows you to Fireman Carry someone')
 
 RegisterCommand("carry",function(source, args)
 	if not carryingBackInProgress then

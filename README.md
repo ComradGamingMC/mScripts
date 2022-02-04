@@ -2,6 +2,7 @@
 # mScripts
 This is a custom scripting package that i have made for general FiveM usage on any server weather it is ESX,QB-Core,vMenu or even a blank server. Current Lua Scripts inside
     3D Me - 3D Text That pops up above the player for better RP Usage 
+    Binoculars - Allows you to press N4 (Numpand 4) and zoom in or out on a location.
     AI Spawning Rate - Allows you to change how much AI are in you city
     Blips - Custom Blip Locations, Locations can be disabled by adding -- infront of the info 
     /Car Command - Command That allows you to spawn a vehicle without opening a menu
@@ -15,6 +16,7 @@ This is a custom scripting package that i have made for general FiveM usage on a
     Hands Up - Allows a player to put there hands up by press [X]
     KnightStickFix - Makes it so the knight stick is not a 1 Hit Kill
     NoGrip - Helps prevent people from Spam Jumping and running
+    NoLocalSirens - Disables the stupid sirens you hear in the background from Local PD Cars
     NoNPCDrop - Stops NPC's from dropping there weapons
     NOPDWanted - Makes it so people can not get wanted while in-city by local cops
     NOVehWeapon - Disable Weapons on Vehicles, Like Ardent, Lazer, Buzzard so people can still use the car just not the weapons

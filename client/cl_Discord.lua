@@ -1,14 +1,13 @@
 CreateThread(function()
 	while true do
 
-		SetDiscordAppId(824895684444422174)
-		SetDiscordRichPresenceAsset('slrp')
-		SetDiscordRichPresenceAssetText('Streetlife Roleplay')
+		SetDiscordAppId(371450276688953376)
+		SetDiscordRichPresenceAsset('mds')
+		SetDiscordRichPresenceAssetText('Matts Dev Server')
 		SetDiscordRichPresenceAssetSmall('discord')
-		SetDiscordRichPresenceAssetSmallText('discord.gg/streetliferp')
-		--SetRichPresence(#Streetlife.Players .. '/64 players online [' .. GetPlayerServerId(SStreetLife.Player.Id) .. ']')
+		SetDiscordRichPresenceAssetSmallText('https://discord.gg/9BWKde9')
 
-		--SetDiscordRichPresenceAction(0, 'Play Now', 'fivem://connect/194.156.89.38:30120')
+		SetDiscordRichPresenceAction(0, 'Play Now', 'fivem://connect/67.181.133.245:30120')
 
 		Wait(60000)
 	end

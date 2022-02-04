@@ -29,13 +29,6 @@ micspawned2 = false
 bmicspawned = false
 camspawned = false
 
-Citizen.CreateThread(function()
-    TriggerEvent('chat:addSuggestion', '/cam', 'Toggle a weazal news camera')
-    TriggerEvent('chat:addSuggestion', '/mic', 'Toggle a weazal news microphone (holding for other)')
-    TriggerEvent('chat:addSuggestion', '/mic2', 'Toggle a weazal news microphone (holding for yourself)')
-    TriggerEvent('chat:addSuggestion', '/bmic', 'Toggle a weazal news boom microphone')
-end)
-
 ---------------------------------------------------------------------------
 -- Toggling Cam --
 ---------------------------------------------------------------------------
