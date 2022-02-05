@@ -20,3 +20,7 @@ VERSION 1.0.2
     ADDED - cl_Main - This legit just holds threads for adding chat commands.
     ADDED - sv_AdvertisementCMD - Allows your to send a Advertisement for a company for anything in-general 
     ADDED - sv_TwtCmd - Allows players to use Twitter in chat instead of like on a Phone.
+    ADDED - cl_PauseMenu - This is still a work in progress but the basic functions are there and usable.
+    REPLACEED - Removed/Replaced the Knightstick.lua and Fistfight.lua with WeaponDamage.lua this will hold more weapon buff/debuffs later on down the road. 
+    ADDED - TrunkHide.lua this allows players to hide within a trunk of a vehicle.
+    ADDED - New Weapon Models all located in the Stream Folder
