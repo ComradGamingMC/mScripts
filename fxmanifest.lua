@@ -4,13 +4,41 @@ game { 'gta5' }
 name 'mScripts'
 author 'Mathew Loveless <mloveless7@yahoo.com> (https://github.com/ComradGamingMC/)'
 description 'Custom Scripting Package For General FiveM Usage'
-Version '1.0.2'
+Version '1.0.3'
 url 'https://github.com/ComradGamingMC/mScripts'
+
+files{
+	'**/weaponcomponents.meta',
+	'**/weaponarchetypes.meta',
+	'**/weaponanimations.meta',
+	'**/pedpersonality.meta',
+	'**/weapon_fiveseven.meta',
+    '**/weapon_m700.meta',
+    '**/weapon_sledgehammer.meta',
+}
+
+data_file 'WEAPONCOMPONENTSINFO_FILE' '**/weaponcomponents.meta'
+data_file 'WEAPON_METADATA_FILE' '**/weaponarchetypes.meta'
+data_file 'WEAPON_ANIMATIONS_FILE' '**/weaponanimations.meta'
+data_file 'PED_PERSONALITY_FILE' '**/pedpersonality.meta'
+data_file 'WEAPONINFO_FILE' '**/weapon_fiveseven.meta'
+data_file 'WEAPONINFO_FILE' '**/weapon_m700.meta'
+data_file 'WEAPONINFO_FILE' '**/weapon_sledgehammer.meta'
+
+
+client_script 'cl_weaponNames.lua'
+
+
+data_file 'HANDLING_FILE' 'dat/handling.meta'
 
 files {
 	'dat/*.dat',
-	'dat/*.meta'
+	'dat/*.meta',
+    "nui.html",
+    "images/*.png"
 }
+
+ui_page "nui.html"
 --Better Torch https://forum.cfx.re/t/release-bettertorch/451106
 server_script "BetterTorch.Server.net.dll"
 client_script "BetterTorch.Client.net.dll"

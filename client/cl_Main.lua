@@ -38,6 +38,9 @@ if EnableChatCommand == true then
         TriggerEvent('chat:addSuggestion', '/bmic', 'Allows a person to hold a Boom Mic to get audio overhead.', {
             { name="Message", help="ERROR: NO Message Needed"}
         })
+        TriggerEvent('chat:addSuggestion', '/th', 'Allows you to take a person hostage', {
+            { name="Message", help="ERROR: NO Message Needed"}
+        })
 
 
 end)

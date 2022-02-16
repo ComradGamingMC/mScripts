@@ -24,3 +24,26 @@ VERSION 1.0.2
     REPLACEED - Removed/Replaced the Knightstick.lua and Fistfight.lua with WeaponDamage.lua this will hold more weapon buff/debuffs later on down the road. 
     ADDED - TrunkHide.lua this allows players to hide within a trunk of a vehicle.
     ADDED - New Weapon Models all located in the Stream Folder
+
+
+VERSION 1.0.3 
+    ADDED - cl_InjuryWalk - Makes it so when a player is damage they walk with the injuried walk.
+    ADDED - cl_WeaponMods - Makes it so when you turn on the Flashlight, It stays on Until turned off [E]
+    ADDED - Death Reset - Resets the player PED After deather so there not blood on them after they respawn
+    UPDATE - Discord.lua Added a Join Discord Button. 
+    ADDED - Take Hostage - Allows people to take someone hostage and hold them at gun point.
+    ADDED - AntiVehRoll - Stops people after rolling a veh from just rolling them back over.
+    UPDATED - NoNPCDrop - Changed the script update the code to make it faster.
+    ADDED - Handling.meta - Minor changes to all vehicles nothing major. 
+    ADDED - Break Light FIx - Makes it so Brakes light auto come on when the vehicle is not moving.
+    ADDED - Custom Weapon - New Custom Addon Weapons that can be spawned via WEAPON_{NMAE} - FIVESEVEN
+    ADDED - NPCAI - This small script adds workers into Shops, Like clothing, 24/7, and, Banks ext.
+    UPDATED - NoNPCWanted Optimised the Code, To make it run Fast & Less Taxing on Servers. 
+    UPDATED - NoVehWeapons - Updated Code & more effective & runs faster
+    UPDATED cl_PauseMenu - Removed some lines of code, While i learn more about this, (Can Disble by adding .dis after the .lua)
+    ADDED - TakeHostage - Added a thake Hostage Script to allow players to take someone hostage
+    UPDATED - TrunkHide - Last one was coded for ESX, New one is Coded for Standalone. Working on recode for old code.
+    ADDED - WeapoonMods - Adds Multi Features like Disabling Weapon Reticle, Added Presistant Weapon Flashlight, Firing Mode (Semi, 3 Round Burst, FUll Auto)
+    ADDED - WeaponNames - For Custom Weapons it gives the there set name for in-game 
+    ADDED - HTML Folder, FOr Firing Modes 
+    

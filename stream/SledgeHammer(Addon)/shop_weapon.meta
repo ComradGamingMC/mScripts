@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WeaponShopItemArray>
+	<weaponShopItems>
+		<Item>
+			<lockHash>W_ME_SLEDGEHAMMER</lockHash>
+			<nameHash>WEAPON_SLEDGEHAMMER</nameHash>
+			<cost value ="999"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_SLEDGEHAMMER</textLabel>
+			<weaponDesc>WTD_SLEDGEHAMMER</weaponDesc>
+			<weaponTT>WTT_SLEDGEHAMMER</weaponTT>
+			<weaponUppercase>WTU_SLEDGEHAMMER</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>
+	</weaponShopItems>
+</WeaponShopItemArray>	

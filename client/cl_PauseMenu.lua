@@ -1,11 +1,11 @@
 CreateThread(function()
     while true do Wait(5)
     
-    SetHeadingDetailsCustom("Server Owned: Matt L","NO RP DEV WORLD ONLY","discord.gg/9BWKde9")
+    --SetHeadingDetailsCustom("Server Owned: Matt L","NO RP DEV WORLD ONLY","discord.gg/9BWKde9")
     SetHeaderTitle("Matt's Dev Server","Mathew Custom Dev Server where he workes on his Master Scripting Package")
 
-    SetMenuHeaderTextByIndex(0,"",false)
-    SetMenuHeaderTextByIndex(1,"",false)
+  --  SetMenuHeaderTextByIndex(0,"",false)
+  --  SetMenuHeaderTextByIndex(1,"",false)
     
     for i=3,4 do 
     SetMenuAlert(i,"")
@@ -16,7 +16,7 @@ end)
 
 
 
-local isScripted = false 
+--[[local isScripted = false 
 function SetHeadingDetailsCustom(str1, str2, str3)
     BeginScaleformMovieMethodOnFrontendHeader("SET_HEADING_DETAILS")
      ScaleformMovieMethodAddParamTextureNameString(str1)
@@ -27,6 +27,7 @@ function SetHeadingDetailsCustom(str1, str2, str3)
     EndScaleformMovieMethod()
 
 end 
+--]]
 
 function ShiftCoronaDesc(shiftDesc, hideTabs)
     BeginScaleformMovieMethodOnFrontendHeader("SHIFT_CORONA_DESC")
@@ -71,10 +72,10 @@ function SetMenuAlert(menuindex, warnStr_)
     ScaleformMovieMethodAddParamInt(0)
     EndScaleformMovieMethod()
 end
-function SetMenuHeaderTextByIndex(menuIndex, label, widthSpan)
+--[[function SetMenuHeaderTextByIndex(menuIndex, label, widthSpan)
     BeginScaleformMovieMethodOnFrontendHeader("SET_MENU_ITEM_ALERT")
     ScaleformMovieMethodAddParamInt(menuindex)
     ScaleformMovieMethodAddParamTextureNameString(label)
     ScaleformMovieMethodAddParamBool(widthSpan)
     EndScaleformMovieMethod()
-end
+end--]]

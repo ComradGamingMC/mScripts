@@ -1,0 +1,35 @@
+
+<html lang="en">
+
+    <head>
+        <!-- Required file for FiveM -->
+        <script src="nui://game/ui/jquery.js"></script>
+
+        <style>
+            .box {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            <img id="image">
+        </div>
+
+        <script>
+            $(function () {
+                window.addEventListener("message", function (event) {
+                    if (event.data.PayloadType === "NewMode") {
+                        $('#image').attr("src", `images/${event.data.Payload}.png`)
+                            .fadeIn(500)
+                            .delay(500)
+                            .fadeOut(300);
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
