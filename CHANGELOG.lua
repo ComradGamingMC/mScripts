@@ -47,3 +47,6 @@ VERSION 1.0.3
     ADDED - WeaponNames - For Custom Weapons it gives the there set name for in-game 
     ADDED - HTML Folder, FOr Firing Modes 
     
+VERSION 1.0.4 
+    Removed - All Weapon Models removed and moved to mWeapons (Coming Soon)
+    

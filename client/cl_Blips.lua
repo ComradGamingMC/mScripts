@@ -77,7 +77,7 @@
 {title="Gas Station", colour=1, id=361, x=1208.951, y= -1402.567, z=35.224},
 {title="Gas Station", colour=1, id=361, x=1181.381, y= -330.847,  z=69.316},
 {title="Gas Station", colour=1, id=361, x=620.843,  y= 269.100,  z=103.089},
-{title="Gas Station", colour=1, id=361, x=2581.321, y=362.039, 108.468},
+{title="Gas Station", colour=1, id=361, x=2581.321, y=362.039, z=108.468},
 
 }
 
