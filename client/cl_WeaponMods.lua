@@ -1,6 +1,6 @@
 local Config = {} -- Do not edit this line
 
-Config.SelectorKey = 210
+Config.SelectorKey = 210 -- CTRL
 
 -- Whether or not to enable selector images when changing fire modes
 Config.SelectorImages = true
@@ -329,7 +329,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(0)
 
 		-- If weapon does not require reticle, remove reticle
-		if FireMode.LastWeaponActive ~= "reticle" then HideHudComponentThisFrame(14) end
+	--	if FireMode.LastWeaponActive ~= "reticle" then HideHudComponentThisFrame(14) end -- Comment out this line for Default Crosshair
 
 		-- Hide weapon icon
 		HideHudComponentThisFrame(2)

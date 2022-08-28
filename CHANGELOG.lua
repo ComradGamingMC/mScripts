@@ -50,3 +50,16 @@ VERSION 1.0.3
 VERSION 1.0.4 (suggested replace)
     Removed - All Weapon Models removed and moved to mWeapons (Coming Soon)
     FIXED - Code that was not working and or went missing. 
+
+VERSION 1.0.5 
+
+   UPDATED cl_SeatShuffle.lua - Complete Recode. No Longer has old Code, 3x Less code doing same Actions (REPLACE FILE)
+   ADDED - VehRunning.lua - Makes it so when a player gets out Vehicle does not turn off | Maybe Will add Shutoff Key? Unsure. (ADD FILE)
+   ADDED - WeaponHolsters - Adds Holster Animations for EUP Holsters, More can always be added by yourself if you have custom ones. (ADDFILE)
+   Removed - No Local Sirens (remove File)
+   Removed - NoNPCWanted (remove File)
+   Removed - NoNPCDrops (remove File)
+   Added - AntiCop - This is everything for local cops, NoNPCwanted & NoNPCDrops & cl_NoLocalSirens Where combined into here (ADD FILE)
+   Added - HudClean - Cleans up the hud, Removes things like Vehicle name, Vehicle Class ext.
+   Change - Enabled HUD (Can Be changed in WeaponMods line 332 remove the --)
+   Change - Cleaned up cl_Blips and removed alot of the spacing and added Mission Row PD to blips.
