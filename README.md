@@ -1,5 +1,4 @@
 # mScripts
-[![GitHub release](https://img.shields.io/badge/Version-1.5-blue](https://github.com/ComradGamingMC/mScripts/)
 
 mScripts is a resource mainly for roleplay server. Addions tons a new and improving features, Witch helps improves players roleplay quility.
 You can find a complete overview with all the features [here](docs/features.lua).
