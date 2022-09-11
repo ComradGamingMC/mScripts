@@ -1,5 +1,5 @@
 local blacklistedModels = {
-	"model_name",
+	"deluxo",
 }
 
 local turnEngineOn = true

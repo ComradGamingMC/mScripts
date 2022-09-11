@@ -1,6 +1,6 @@
 local config = {
-    pedFrequency = 0.0,
-    trafficFrequency = 0.0,
+    pedFrequency = 1.0,
+    trafficFrequency = 0.2,
 }
 
 

@@ -54,7 +54,8 @@ client_scripts {
     "client/rageui/menu/panels/*.lua",
     "client/rageui/menu/windows/*.lua",
     'client/rageui/example.lua',
-	"client/*.lua"
+	"client/*.lua",
+    "lib/enum.lua"
 }
 
 
