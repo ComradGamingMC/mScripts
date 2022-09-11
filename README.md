@@ -25,9 +25,13 @@ Before you start using mScripts you will need to install mNotify
 2. Download the latest version from the [GitHub repository](https://github.com/ComradGamingMC/mScripts/).    
 3. Edit files Below to your liking  
     - Edit `mScripts/client/AISpawn.lua` 
+    - Edit `mScripts/client/AIWorkers.lua`
+    - Edit `mScripts/client/AutoPilot.lua` | Add What Vehicles you want.
     - Edit `mScripts/client/Blips.lua` 
     - Edit `mScripts/client/CarFix.lua` 
     - Edit `mScripts/client/Discord.lua` 
     - Edit `mScripts/client/DriveBySpeed.lua` 
-    - Edit `mScripts/client/PauseMenu.lua` 
+    - Edit `mScripts/client/PauseMenu.lua`
+    - Edit `mScripts/server/PlayerReports.lua` | Add your Discord Webhook
     - Edit `mScripts/client/Watermark.lua` 
+ ## 
