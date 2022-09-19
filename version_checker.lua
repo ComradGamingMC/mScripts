@@ -2,11 +2,7 @@
 -- Branding!
 local label =
 [[ 
-  //
-  ||
-  || 
-  ||                      M SCRIPTS WAS HERE!
-  || 
+  ||                      MScripts WAS HERE!
   ||]]
 
 -- Returns the current version set in fxmanifest.lua
@@ -15,7 +11,7 @@ function GetCurrentVersion()
 end
 
 -- Grabs the latest version number from the web GitHub
-PerformHttpRequest( "https://comradgamingmc.github.io/version.txt", function( err, text, headers )
+PerformHttpRequest( "https://comradgamingmc.github.io/mScripts_version.txt", function( err, text, headers )
 	-- Wait to reduce spam
 	Citizen.Wait( 2000 )
 

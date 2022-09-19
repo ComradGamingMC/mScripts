@@ -35,3 +35,4 @@
 * vSync Syncs in-game weather with everyone one the server also allows changing of weather via command
 * Tazer Effects When a player is tazed makes there screen shake and change colors a little bit for a small period of time
 * Watermark adds a constant water make with your server name and Discord link to top right of screen.
+* Wheelie Scripting - Allows players to pop wheels in most vehicles for drag events and more.
