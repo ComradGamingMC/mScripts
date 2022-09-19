@@ -4,7 +4,7 @@ game { 'gta5' }
 name 'mScripts'
 author 'Mathew Loveless <mloveless7@yahoo.com> (https://github.com/ComradGamingMC/)'
 description 'Custom Scripting Package For General FiveM Usage'
-Version '1.5'
+Version '1.6'
 url 'https://github.com/ComradGamingMC/mScripts'
 
 files{

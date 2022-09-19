@@ -25,7 +25,7 @@
 {title="Fire Station", colour=1, id=60, x=-635.992, y=-121.635, z=39.0138}, -- Rockford Hills Fire
 {title="Fire Station", colour=1, id=60, x=1697.26, y=3585.46, z=35.5443}, -- Sandy Shore Fire
 {title="Fire Station", colour=1, id=60, x=-2113.74, y=2831.58, z=32.8093}, -- Zancodo Base Fire
---[[
+
 {title="Hospital", colour=74, id=61, x=337.238, y=-1396.28, z=32.5092},
 {title="Hospital", colour=74, id=61, x=-450.586, y=-340.387, z=34.5014},
 {title="Hospital", colour=74, id=61, x=1839.74, y=3672.0, z=34.2767},

@@ -1,19 +1,3 @@
-## 1.7
-
-    * Added Files:
-        * Wheelie / Tuner Script - Allows players to pick Different Wheelie Options, Zero is disabled | One = Muscle Car Only | Two = Track Mode | Three = Drag Mode (Vehicles do wheels non stop.)
-        * AntiWheelie - Does what you think. Stops u from Wheeling (Must be enabled)
-        * Healing - Allows players allowed to goto different locations and get healed for free.
-        * Hud Location - THis adds The Location You are at, Direction of Travel & Time and Postal if enabled
-        
-    * Removed Files: 
-
-    * Changed Files:
-        * Hands Up File is now runs faster, and recoded to reduce any lagg. 
-        * Changed BetterAI so they wont shoot you.
-        * Cleaned up Crouching script removed unused code.
-        * Cleaned up/ Added to Discord.lua More professional look.
-        * Recoded / Fixed Injury Walk now when a player is damaged their walk will change.
 ## 1.6
 
     Added - 3DDO - This is the same as 3dme just command changed for what some players may be use to.

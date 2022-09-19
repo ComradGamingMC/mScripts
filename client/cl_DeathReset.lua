@@ -1,4 +1,4 @@
---[[
+
 local FireMode = {}
 -- Weapons the client currently has
 FireMode.Weapons = {}
@@ -11,7 +11,7 @@ FireMode.LastWeaponActive = false
 -- Is shooting currently disabled?
 FireMode.ShootingDisable = false
 -- Is the client reloading?
-FireMode.Reloading = false --]]
+FireMode.Reloading = false
 
 
 -- When the player spawns (or respawns after death)
@@ -19,7 +19,7 @@ AddEventHandler('playerSpawned', function ()
 	-- Remove all blood effects
 	-- Does no seems to work 100% of the time, reason unclear.
 	ClearPedBloodDamage(PlayerPedId())
-	--[[ Remove all weapons stored
+	-- Remove all weapons stored
 	FireMode.Weapons = {}
 	-- Reenable shooting
 	FireMode.ShootingDisable = false
@@ -31,5 +31,5 @@ AddEventHandler('playerSpawned', function ()
 	FireMode.LastWeaponActive = false
 	-- Remove all active local flashlights
 	TriggerServerEvent('Weapons:Server:Toggle', false)
-	FireMode.WeaponFlashlights = {} --]]
+	FireMode.WeaponFlashlights = {}
 end)
