@@ -1,6 +1,5 @@
 local mp_pointing = false
 local keyPressed = false
-
 local function startPointing()
     local ped = GetPlayerPed(-1)
     RequestAnimDict("anim@mp_point")

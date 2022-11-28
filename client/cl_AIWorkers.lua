@@ -52,7 +52,6 @@ markets = {
     {440.67,-978.87,30.69,180.03,"csb_prolsec","amb@world_human_hang_out_street@female_arms_crossed@base","base"},
     -- Simeon
     {-32.13,-1114.37,26.42,70.06,"cs_siemonyetarian","amb@world_human_hang_out_street@female_arms_crossed@base","base"},
-
 }
 
 AddEventHandler('onClientResourceStart', function(resourceName)

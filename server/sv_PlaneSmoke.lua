@@ -12,4 +12,3 @@ AddEventHandler('playerDropped', function(reason)
 	PlayerSmokeSettings[src] = nil
 	TriggerClientEvent('JM36-FSRP:PlaneSmokeSettingsUpdate', -1, PlayerSmokeSettings)
 end)
-

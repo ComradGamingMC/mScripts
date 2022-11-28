@@ -1,6 +1,6 @@
 -- https://docs.fivem.net/docs/game-references/blips/ -- Use For ID 
 
-	local blips = {
+local blips = {
 {title="City Hall", colour=75, id=89, x=-544.0, y=-204.0, z=38.0},   -- City Hall Addon
 {title="Benefactor Dealership", colour=75, id=67, x=-53.91, y=68.01, z=71.96},     -- Benefactor Addon
 {title="Bolingbroke Penitentiary", colour=75, id=238, x=1807.53, y=2605.59, z=45.565}, -- Sandy Prison

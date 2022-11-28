@@ -13,7 +13,6 @@ FireMode.ShootingDisable = false
 -- Is the client reloading?
 FireMode.Reloading = false --]]
 
-
 -- When the player spawns (or respawns after death)
 AddEventHandler('playerSpawned', function ()
 	-- Remove all blood effects

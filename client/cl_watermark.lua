@@ -1,4 +1,3 @@
-
 Citizen.CreateThread(function()
 	while true do  
         Wait(1)      

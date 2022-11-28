@@ -1,7 +1,6 @@
 local crouched = false
 crouchKey = 36
 
-
 Citizen.CreateThread( function()
 	while true do 
 		Citizen.Wait( 1 )

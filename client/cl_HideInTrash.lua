@@ -8,6 +8,7 @@ local dumpsters = {
 }
 local inTrash = false
 
+
 Citizen.CreateThread(function()
     while true do
         Wait(0)

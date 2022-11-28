@@ -35,7 +35,7 @@ files {
 	'dat/*.dat',
 	'dat/*.meta',
     "nui.html",
-    "images/*.png"
+    "images/*.png" 
 }
 
 ui_page "nui.html"

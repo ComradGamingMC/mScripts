@@ -3,7 +3,6 @@ local enableWeatherControl = false
 -- Set this to true if you want this resource to set the weather to xmas for you.
 -- DO NOT SET THIS TO TRUE IF YOU HAVE ANOTHER RESOURCE ALREADY MANAGING/SYNCING THE WEATHER FOR YOU.
 
-
 -- No need to touch anything below.
 Citizen.CreateThread(function()
     

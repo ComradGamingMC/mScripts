@@ -21,4 +21,3 @@ end)
 Citizen.CreateThread(function()
     N_0x4757f00bc6323cfe(GetHashKey("WEAPON_RAYMINIGUN"), 0.00)
 end)
-

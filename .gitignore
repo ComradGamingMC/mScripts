@@ -21,7 +21,7 @@ luac.out
 *.lib
 *.a
 *.la
-*.lo
+*.lo 
 *.def
 *.exp
 

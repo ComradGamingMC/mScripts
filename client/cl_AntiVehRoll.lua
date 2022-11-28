@@ -1,7 +1,6 @@
 local blacklistedModels = {
 	"deluxo",
 }
-
 local turnEngineOn = true
 
 Citizen.CreateThread(function()

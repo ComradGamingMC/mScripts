@@ -32,7 +32,6 @@ local Blips = {{
     z = 30.1,
 }}
 
-
 -- Notification above map
 function DisplayNotification(text)
     SetNotificationTextEntry('STRING')

@@ -17,4 +17,4 @@ AddEventHandler("Weapons:Server:Toggle", function(bool, flashlight, weapon)
     end
 
     TriggerClientEvent("Weapons:Client:Return", -1, Flashlights)
-end)
+end) 

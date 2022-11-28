@@ -1,4 +1,3 @@
-
 --- Config ---
 --RestrictEmer = false -- Only allow the feature for emergency vehicles.
 lightMultiplier = 5.0 -- This is not capped, highly recommended to go above 12.0!

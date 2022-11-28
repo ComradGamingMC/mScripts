@@ -5,7 +5,6 @@ Citizen.CreateThread(function() -- No Local Sirens
     end
 end)
 
-
 Citizen.CreateThread(function() -- No Player Wanted
     while true do
         Citizen.Wait(0)

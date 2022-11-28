@@ -1,5 +1,3 @@
-
-
 local defaultScale = 0.5 -- Text scale
 local color = { r = 230, g = 230, b = 230, a = 255 } -- Text color
 local font = 0 -- Text font

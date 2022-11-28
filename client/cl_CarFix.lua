@@ -42,6 +42,5 @@ Citizen.CreateThread(function()
     AddTextEntry('s2', '2011 Crown Victoria Police')
     AddTextEntry('s3', '2013 Chevy Caprice Police')
     AddTextEntry('s4', '2014 Dodge Charger Police')
-
 	
 end)

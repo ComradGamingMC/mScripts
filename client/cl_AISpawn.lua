@@ -3,7 +3,6 @@ local config = {
     trafficFrequency = 0.2,
 }
 
-
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)

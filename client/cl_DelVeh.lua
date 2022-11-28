@@ -1,4 +1,3 @@
-
 RegisterCommand('dv', function()
     local playerPed = PlayerPedId()
 

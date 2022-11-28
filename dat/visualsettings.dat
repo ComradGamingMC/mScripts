@@ -17,7 +17,7 @@ car.headlight.day.emissive.off 0.000
 car.headlight.night.emissive.off 0.000
 car.indicator.day.emissive.on 250.00
 car.indicator.night.emissive.on	220.00
-car.indicator.day.emissive.off 0.00
+car.indicator.day.emissive.off 0.00 
 car.indicator.night.emissive.off 0.000
 car.middlebrakelight.day.emissive.on 210.00
 car.middlebrakelight.night.emissive.on 160.00

@@ -42,4 +42,4 @@ PerformHttpRequest( "https://comradgamingmc.github.io/mScripts_version.txt", fun
 	if ( GetCurrentResourceName() ~= "mScripts" ) then
 		print( "^1ERROR: Resource name is not mScripts, expect there to be issues with the resource. To ensure there are no issues, please leave the resource name as mScripts^0\n\n" )
 	end
-end )
+end ) 

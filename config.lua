@@ -17,7 +17,7 @@ config = {
         scale = 0.40,
         x = 0.182,
         y = 0.96
-    },
+    }, 
 
     -- Configure the voice range display.
     voiceRangeDisplay = {

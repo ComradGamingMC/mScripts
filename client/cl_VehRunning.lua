@@ -14,3 +14,4 @@ Citizen.CreateThread(function()
 		Citizen.Wait(10)
 	end
 end)
+

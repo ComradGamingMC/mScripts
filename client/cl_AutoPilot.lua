@@ -4,7 +4,6 @@ local supportedcars = {
     'deluxo',
     'rrevo9'
 }
-
 local autopilot = false
 
 function supported(Vehicle)

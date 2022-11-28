@@ -1,4 +1,3 @@
-
 local recording = false
 RegisterCommand('record', function(source, args, RawCommands)
 	if not recording then	

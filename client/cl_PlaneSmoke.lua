@@ -1,5 +1,4 @@
 local SmokeEnabled, SmokeR, SmokeG, SmokeB, SmokeSize = false, 0.0, 0.0, 0.0, 1.0
-
 local PlayerSmokeSettings = {}
 
 local offsets = {

@@ -1,5 +1,3 @@
-
-
 function text(text, scale, x, y)
     SetTextFont(4)
     SetTextProportional(0)

@@ -1,6 +1,5 @@
 local AntiWheelie = false
 
-
 if AntiWheelie == true then
 Citizen.CreateThread(function()
     while true do

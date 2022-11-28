@@ -1,20 +1,27 @@
 ## 1.7
 
     * Added Files:
-        * Wheelie / Tuner Script - Allows players to pick Different Wheelie Options, Zero is disabled | One = Muscle Car Only | Two = Track Mode | Three = Drag Mode (Vehicles do wheels non stop.)
-        * AntiWheelie - Does what you think. Stops u from Wheeling (Must be enabled)
-        * Healing - Allows players allowed to goto different locations and get healed for free.
-        * Hud Location - THis adds The Location You are at, Direction of Travel & Time and Postal if enabled
+     * AntiWheelie - Does what you think. Stops u from Wheeling (Must be enabled)
+     * Healing - Allows players allowed to goto different locations and get healed for free.
+     * Hud Location - THis adds The Location You are at, Direction of Travel & Time and Postal if enabled
+     * Disable Vehicle Radios - Makes it so players can use vehicle radios, Sense they all turn them off anyways.
+     * Reset World - Got a Modder? Use /reset to remove all current vehicles and props on the map. WIll reset everything like u restarted it.
+     * Admin Delete Vehicle - Allows people with group.admin perms to remove all vehicles without people in them. Different from reset world.
+     * Real Weapon Damage, Change Weapon Damage Multipler in WeaponDamage.lua (Marked what weapons are LEO Weapons)
+     * Added Repair Locations, You can add more in cl_vehicleRepairSpots.lua 
+     * AFKKick TImer, Will auto kick someone for being AFK after x seconds, CHange in cl_AFKKick.lua change kick message in sv_AFKKick.lua
+     * Ragdoll when shot, Will cause players to ragdoll when being shot by someone {WIP}
         
     * Removed Files: 
-
+        * Binoculars Scripts- THis was removed due to it being broken, Will return in later update when i get it working 100% right
+        * Dancing Scrupt - This was removed because i have noticed its not a used much thing and can be replaced by DPEmotes.
     * Changed Files:
         * Hands Up File is now runs faster, and recoded to reduce any lagg. 
         * Changed BetterAI so they wont shoot you.
         * Cleaned up Crouching script removed unused code.
         * Cleaned up/ Added to Discord.lua More professional look.
         * Recoded / Fixed Injury Walk now when a player is damaged their walk will change.
-## 1.6
+## 1.6 
 
     Added - 3DDO - This is the same as 3dme just command changed for what some players may be use to.
     Added - Piggyback Scripting, Players can now type /piggyback or /pb and piggyback off other players

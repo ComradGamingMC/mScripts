@@ -18,7 +18,7 @@ function GetPlayers()
 
     return players
 end
-
+ 
 RegisterCommand("report", function(source, args, rawCommand)
     sm = stringsplit(rawCommand, " ");
     if #args < 2 then

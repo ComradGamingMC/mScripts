@@ -23,7 +23,6 @@ local UI = {
 	x =  0.000 ,
 	y = -0.001 ,
 }
-
 micspawned = false
 micspawned2 = false
 bmicspawned = false

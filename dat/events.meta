@@ -10,7 +10,7 @@
 		</Item>
 		<Item type="CEventDataResponsePoliceTaskWanted">
 			<Name>RESPONSE_POLICE_TASK_WANTED</Name>
-		</Item>
+		</Item> 
 		<Item type="CEventDataResponseSwatTaskWanted">
 			<Name>RESPONSE_SWAT_TASK_WANTED</Name>
 		</Item>

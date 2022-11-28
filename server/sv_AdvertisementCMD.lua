@@ -9,3 +9,4 @@ local AdStyle = 3
 				TriggerClientEvent('chatMessage', -1, "^0^*[^1Advertisement^0]^r", {255,215,0}, table.concat(args, " ")) --ADVERT WITH NO USERS IDENTIFIER
 			end
 	end, false)
+	

@@ -14,7 +14,7 @@
 * Added a Fix for Custom vehicles something **NULL** in vMenu/ESX/QBCore | Add your vehciles into cl_CarFix.lua to Fix
 * Added DIfferent Carrying emote Motions so you can drag players around | /carry | /carryu | /piggyback /pb
 * Added Dancing emtions via Commadn [Dancing[0-99]]
-* Reseting a Players look (Blood ext) apon deather
+* Reseting a Players look (Blood ext) apon deather 
 * Adding Dving Vehicles for players while sitting inside vehicles (This is a vMenu thing Remove for ESX/QBCore)
 * Discord Rich Presence so players can much easily join off there friends and join your discord much easier.
 * Added a Limit to how fast a player can drive in a vehicle to shoot a gun out of the windows

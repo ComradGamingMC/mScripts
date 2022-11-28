@@ -6,7 +6,6 @@
 
 showMessage = true -- Show the message? https://faxes.zone/imagebanks/45ik2.png
 restrictMessage = "~r~This mod is restricted." -- Message displayed if one is found with bullet proof tires
-
 --- Code ---
 
 function ShowNotification(text)

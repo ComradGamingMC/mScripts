@@ -16,4 +16,3 @@
             Citizen.Wait(wait)
         end
     end)
-

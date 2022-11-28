@@ -1,5 +1,4 @@
 local Config = {} -- Do not edit this line
-
 Config.SelectorKey = 210 -- CTRL
 
 -- Whether or not to enable selector images when changing fire modes

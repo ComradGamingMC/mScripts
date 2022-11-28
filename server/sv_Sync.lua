@@ -13,12 +13,6 @@ DynamicWeather = true
 debugprint = false -- don't touch this unless you know what you're doing or you're being asked by Vespura to turn this on.
 --------------------------------------------------
 
-
-
-
-
-
-
 -------------------- DON'T CHANGE THIS --------------------
 AvailableWeatherTypes = {
     'EXTRASUNNY', 

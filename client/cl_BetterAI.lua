@@ -23,7 +23,3 @@ SetRelationshipBetweenGroups(1, GetHashKey("HATES_PLAYER"), GetHashKey('PLAYER')
 SetRelationshipBetweenGroups(1, GetHashKey("HEN"), GetHashKey('PLAYER'))
 SetRelationshipBetweenGroups(1, GetHashKey("GUARD_DOG"), GetHashKey('PLAYER'))
 SetRelationshipBetweenGroups(1, GetHashKey("DOMESTIC_ANIMAL"), GetHashKey('PLAYER'))
-
-
-
-

@@ -7,7 +7,6 @@ function SetProned()
 	TaskPlayAnimAdvanced(ped, "move_crawl", "onfront_fwd", GetEntityCoords(ped), 0.0, 0.0, GetEntityHeading(ped), 1.0, 1.0, 1.0, 46, 1.0, 0, 0)
 end
 
-
 function ProneMovement()
 	if proned then
 		ped = PlayerPedId()

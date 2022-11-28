@@ -35,4 +35,4 @@ Before you start using mScripts you will need to install mNotify
     - Edit `mScripts/server/PlayerReports.lua` | Add your Discord Webhook
     - Edit `mScripts/client/Watermark.lua` 
     - Enabled or Disable Wheelies via the Wheelies File (`mScripts/client/Wheelies.lua` ) & (`mScripts/client/AntiWheelies.lua`)
- ## 
+ ##  

@@ -10,7 +10,7 @@ AddEventHandler("TakeHostage:sync", function(targetSrc)
 	TriggerClientEvent("TakeHostage:syncTarget", targetSrc, source)
 	takingHostage[source] = targetSrc
 	takenHostage[targetSrc] = source
-end)
+end) 
 
 RegisterServerEvent("TakeHostage:releaseHostage")
 AddEventHandler("TakeHostage:releaseHostage", function(targetSrc)

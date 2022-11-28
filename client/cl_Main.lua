@@ -42,6 +42,5 @@ if EnableChatCommand == true then
             { name="Message", help="ERROR: NO Message Needed"}
         })
 
-
-end)
+    end)
 end
